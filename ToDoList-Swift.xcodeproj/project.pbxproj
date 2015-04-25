@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		619C1FAF1AEBECEF00DA1F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619C1FAE1AEBECEF00DA1F6A /* AppDelegate.swift */; };
 		619C1FB21AEBECEF00DA1F6A /* ToDoList_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 619C1FB01AEBECEF00DA1F6A /* ToDoList_Swift.xcdatamodeld */; };
-		619C1FB41AEBECEF00DA1F6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619C1FB31AEBECEF00DA1F6A /* ViewController.swift */; };
+		619C1FB41AEBECEF00DA1F6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619C1FB31AEBECEF00DA1F6A /* LoginViewController.swift */; };
 		619C1FB71AEBECEF00DA1F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619C1FB51AEBECEF00DA1F6A /* Main.storyboard */; };
 		619C1FB91AEBECEF00DA1F6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619C1FB81AEBECEF00DA1F6A /* Images.xcassets */; };
 		619C1FBC1AEBECEF00DA1F6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619C1FBA1AEBECEF00DA1F6A /* LaunchScreen.xib */; };
 		619C1FC81AEBECEF00DA1F6A /* ToDoList_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619C1FC71AEBECEF00DA1F6A /* ToDoList_SwiftTests.swift */; };
 		619C1FD21AEC030F00DA1F6A /* ReturnBackTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619C1FD11AEC030F00DA1F6A /* ReturnBackTextField.swift */; };
+		619C1FD41AEC07C500DA1F6A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619C1FD31AEC07C500DA1F6A /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,7 @@
 		619C1FAD1AEBECEF00DA1F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		619C1FAE1AEBECEF00DA1F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		619C1FB11AEBECEF00DA1F6A /* ToDoList_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList_Swift.xcdatamodel; sourceTree = "<group>"; };
-		619C1FB31AEBECEF00DA1F6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		619C1FB31AEBECEF00DA1F6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		619C1FB61AEBECEF00DA1F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		619C1FB81AEBECEF00DA1F6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		619C1FBB1AEBECEF00DA1F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		619C1FC61AEBECEF00DA1F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		619C1FC71AEBECEF00DA1F6A /* ToDoList_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList_SwiftTests.swift; sourceTree = "<group>"; };
 		619C1FD11AEC030F00DA1F6A /* ReturnBackTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReturnBackTextField.swift; path = SubClass/ReturnBackTextField.swift; sourceTree = "<group>"; };
+		619C1FD31AEC07C500DA1F6A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				619C1FAE1AEBECEF00DA1F6A /* AppDelegate.swift */,
-				619C1FB31AEBECEF00DA1F6A /* ViewController.swift */,
+				619C1FB31AEBECEF00DA1F6A /* LoginViewController.swift */,
+				619C1FD31AEC07C500DA1F6A /* CreateAccountViewController.swift */,
 				619C1FB51AEBECEF00DA1F6A /* Main.storyboard */,
 				619C1FB81AEBECEF00DA1F6A /* Images.xcassets */,
 				619C1FBA1AEBECEF00DA1F6A /* LaunchScreen.xib */,
@@ -218,7 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619C1FB41AEBECEF00DA1F6A /* ViewController.swift in Sources */,
+				619C1FD41AEC07C500DA1F6A /* CreateAccountViewController.swift in Sources */,
+				619C1FB41AEBECEF00DA1F6A /* LoginViewController.swift in Sources */,
 				619C1FAF1AEBECEF00DA1F6A /* AppDelegate.swift in Sources */,
 				619C1FD21AEC030F00DA1F6A /* ReturnBackTextField.swift in Sources */,
 				619C1FB21AEBECEF00DA1F6A /* ToDoList_Swift.xcdatamodeld in Sources */,
