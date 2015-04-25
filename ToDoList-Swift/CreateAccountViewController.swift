@@ -8,6 +8,13 @@
 
 import UIKit
 
+
+enum ButtonType : Int {
+    case Back = 1
+    case Create = 2
+}
+
+
 class CreateAccountViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -32,4 +39,13 @@ class CreateAccountViewController: UIViewController {
     }
     */
 
+    @IBAction func buttonActionTouchUpInside(sender: UIButton) {
+        let buttonType = ButtonType(rawValue: sender.tag)
+        switch buttonType! {
+            case .Back :
+                break
+            case .Create :
+                println("create")
+        }
+    }
 }
